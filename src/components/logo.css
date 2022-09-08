@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+}
+li a:hover{
+    color: rgb(187, 255, 0);
+}
+.logo-av{
+    position: absolute;
+    left: 10px;
+    height: 50px;
+    width: auto;
+    
+}
+.home-nav{
+    float: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(187, 255, 0);  
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 6%;
+    top: 15px;
+}
+.home-nav:hover{
+    color: whitesmoke;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+.our-title{
+    font-family: boldgod;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.our-des{
+    font-size: 1em;
+    color: gray;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    line-height: 20px;
+}
+.credit-our{
+    font-family: 'Noto Sans', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+.our-yell{
+    color: rgb(187, 255, 0);
+}
+.make-yell{
+    color: rgb(187, 255, 0);
+}

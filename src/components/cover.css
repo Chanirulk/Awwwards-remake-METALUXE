@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+.cover-head-vid{
+    font-family: boldgod;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 60px;
+    color: whitesmoke;
+
+}
+.suit-yell{
+    color: rgb(187, 255, 0);
+}
+.meta-yell{
+    color: rgb(187, 255, 0);
+}
+.welcome{
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: -35%;
+    left: 2%;
+}
+.carousel {
+    z-index: 10;
+    position: absolute;
+    max-width: 200px;
+    height: 200px; 
+    left: 2%;
+    top: 410px;
+}
+.rot-pic-one{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.rot-pic-two{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.rot-pic-three{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.carousel-two {
+    z-index: 10;
+    position: absolute; 
+    max-width: 500px;
+    height: 550px; 
+    left: 60%;
+    top: -135px;
+}
+.ric{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.scan-me{
+    color: grey;
+    font-size: 0.8em;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 20px;
+  
+}
+.arrn{
+    color: rgb(187, 255, 0);
+}
+.power-by{
+    color: grey;
+    font-size: 0.8em;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 20px;
+    position: absolute;
+    left: 140%;
+    top: 18px;
+}
+.water{
+    position: absolute;
+    left: 140%;
+    top: 50px;
+    height: 50px;
+    width: auto;
+}
+.hover-pic-one{
+    height: 80px;
+    width: 80px; 
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.hover-pic-two{
+    height: 80px;
+    width: 80px; 
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.hover-pic-three{
+    height: 80px;
+    width: 80px; 
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.hover-pic-one:hover{
+    border: 5px solid rgb(187, 255, 0);
+}
+.hover-pic-two:hover{
+    border: 5px solid rgb(187, 255, 0);
+}
+.hover-pic-three:hover{
+    border: 5px solid rgb(187, 255, 0);
+}

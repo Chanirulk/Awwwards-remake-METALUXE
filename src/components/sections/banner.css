@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+.gen-yell{
+    color: rgb(187, 255, 0);
+}
+.ten-yell{
+    color: rgb(187, 255, 0);
+}
+.rm-one{
+    color: rgb(187, 255, 0);
+}
+
+.items{
+    overflow-x: hidden;
+	display: flex;
+	align-items: center;
+	width: fit-content;
+    overflow-x: hidden;
+}
+.entry{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+	flex-direction: column;
+	position: relative;
+	width: 250px;
+	margin: 0.5em;
+	border-radius: 20px;
+    height: 250px;
+    animation: carouselAnim 10s infinite alternate linear;
+}
+@keyframes carouselAnim {
+	from { transform: translate(0,0); }
+	to { transform: translate(calc(-500% + (5 * 300px))) }
+}
+.slide{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+.rick-pic{
+    position: absolute;
+    height: 570px;
+    width: auto;
+    top: -80px;
+    left: 55%;
+}
+.accordion > input[type="checkbox"] {
+  position: absolute;
+  left: -100vw;
+}
+.accordion .content {
+  overflow-y: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+}
+.accordion > input[type="checkbox"]:checked ~ .content {
+  height: auto;
+  overflow: visible;
+}
+.accordion label {
+  display: block;
+}
+.accordion {
+  margin-bottom: 1em;
+  text-transform: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+.pl{
+    float: right;
+}
+.accordion > input[type="checkbox"]:checked ~ .content {
+  padding: 15px; 
+  margin: 3px;
+  border-radius: 20px;
+  border: 1px solid rgb(187, 255, 0);
+}
+.accordion .handle {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.2em;
+}
+.accordion label {
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  color: gray;
+}
+.accordion label:hover,
+.accordion label:focus {
+  border: 1px solid rgb(187, 255, 0);
+}
+.accordion .handle label:before { 
+  content: "\f054";
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1.556em;
+  vertical-align: middle;
+  display: none;
+}
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  content: "\f078";
+}
+.accordion {
+  max-width: 600px;
+}
+.accordion p:last-child {
+  margin-bottom: 0;
+}

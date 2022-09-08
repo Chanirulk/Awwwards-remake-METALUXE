@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+.overlay-pic{
+    height: 120vh;
+    width: 100%;
+    background: #C04848;  
+    background: linear-gradient(rgba(10, 10, 10, 0.432), rgba(0, 0, 0, 0.377)), url(/src/assets/images/13.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.up-suit{
+    font-family: boldgod;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+.learn-more{
+    text-transform: none;
+    color: gray;
+    font-family: 'Noto Sans', sans-serif;
+} 
+.myButton {
+ 	background-color:rgb(187, 255, 0); 
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+	font-size:18px;
+	padding: 10px 50px;
+	text-decoration:none; 
+}
+.myButton:hover {
+ 	background-color: black;
+    border: 1px so rgb(187, 255, 0);
+    color: whitesmoke;
+} 

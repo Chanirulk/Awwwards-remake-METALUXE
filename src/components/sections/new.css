@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.our-yell{
+    color: rgb(187, 255, 0);
+} 
+.q-yell{
+    color: rgb(187, 255, 0);
+} 
+.fut-des{
+    font-family: 'Albert Sans', sans-serif;
+    color: gray;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+.row {
+  width: 100%;
+  display: table;
+}
+
+.col {
+  display: table-cell;
+  height: 200px;
+  width: 400px;
+}
+
+.mint-vr{
+    height: 100%;
+    width: auto;
+    object-fit: cover; 
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}

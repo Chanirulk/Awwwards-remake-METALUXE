@@ -1,0 +1,73 @@
+.carousel-two {
+	position: relative;
+	overflow: hidden; 
+}
+
+.carousel-two>* {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-size: cover;
+}
+ 
+.carousel-two>*:nth-child(1) {
+	animation:fade1 20s infinite;
+}
+@keyframes fade1 {
+	0%   {opacity:1}
+	20%  {opacity:0}
+	40%  {opacity:0}
+	60%  {opacity:0}
+	80%  {opacity:0}
+	100% {opacity:1}
+}
+
+.carousel-two>*:nth-child(2) {
+	animation:fade2 20s infinite;
+}
+@keyframes fade2 {
+	0%   {opacity:0}
+	20%  {opacity:1}
+	40%  {opacity:0}
+	60%  {opacity:0}
+	80%  {opacity:0}
+	100% {opacity:0}
+}
+
+.carousel-two>*:nth-child(3) {
+	animation:fade3 20s infinite;
+}
+@keyframes fade3 {
+	0%   {opacity:0}
+	20%  {opacity:0}
+	40%  {opacity:1}
+	60%  {opacity:0}
+	80%  {opacity:0}
+	100% {opacity:0}
+}
+
+.carousel-two>*:nth-child(4) {
+	animation:fade4 20s infinite;
+}
+@keyframes fade4 {
+	0%   {opacity:0}
+	20%  {opacity:0}
+	40%  {opacity:0}
+	60%  {opacity:1}
+	80%  {opacity:0}
+	100% {opacity:0}
+}
+
+.carousel-two>*:nth-child(5) {
+	animation:fade5 20s infinite;
+}
+@keyframes fade5 {
+	0%   {opacity:0}
+	20%  {opacity:0}
+	40%  {opacity:0}
+	60%  {opacity:0}
+	80%  {opacity:1}
+	100% {opacity:0}
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+@font-face {
+    font-family: boldgod;
+    src: url(/src/assets/font/Specify\ PERSONAL\ Expanded\ Bold.woff);
+}
+.rot{
+    top: 30%; 
+    left: 0%;
+    opacity: .5;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+.last-link{
+    display: inline;
+    padding: 50px;
+    color: whitesmoke;
+    font-size: 3em;
+    font-family: boldgod;
+}
+.last-link:hover{
+    color: rgb(187, 255, 0);
+}
+.last-link-un{
+    color: gray;
+    padding: 50px;
+    font-size: 3em;
+    font-family: boldgod;
+}
+.sml-last{
+    color: gray;
+    font-size: 0.3em;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+}
+.credit-outbox{
+    color: rgb(187, 255, 0);
+    font-family: boldgod;
+    text-decoration: none;
+    font-size: 2em;
+}
+.credit-outbox:hover{
+    color: whitesmoke;
+}
+.lgo{
+    position: absolute;
+    margin-top: 20%;
+}
